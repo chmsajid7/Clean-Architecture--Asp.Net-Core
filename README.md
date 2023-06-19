@@ -12,7 +12,7 @@ Create a repo in git.
 <br>In services folder, add folder Ordering.
 <br>
 <br>in Ordering folder run commands : 
-<br>dotnet new webapi --name Ordering.API
+<br>dotnet new webapi --name Ordering.API (or) func init Ordering.Processors
 <br>dotnet new classlib --name Ordering.Domain
 <br>dotnet new classlib --name Ordering.Infrastructure
 <br>dotnet new classlib --name Ordering.ApplicationCore
